@@ -1,0 +1,5 @@
+---
+# Installs Virtualenv
+
+- name: install virtualenv
+  pip: name=virtualenv state=present

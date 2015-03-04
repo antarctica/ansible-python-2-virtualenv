@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  description: Installs Virtualenv module for python 2
+  author: British Antarctic Survey - Web and Applications Team
+  company: British Antarctic Survey
+  license: MIT
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+      - trusty
+
+armadillo_info:
+  name: Python 2 Virtualenv
+  version: 0.1.0
+  source: git@stash.ceh.ac.uk:7999/barc/python-2-virtualenv.git
+  dependencies:
+  - git@stash.ceh.ac.uk:7999/barc/python-2-pip.git#v0.1.1
+
+dependencies:
+  - python-2-pip
